@@ -100,7 +100,7 @@ h2 {
 }
 .clocks-container {
     display: flex;
-    gap: 20px; /* Space between clock boxes */
+    gap: 40px; /* Space between clock boxes */
     align-items: center;
     justify-content: center;
 }
