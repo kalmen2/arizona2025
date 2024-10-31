@@ -95,6 +95,7 @@ h2 {
 
 .zmanim-content {
     display: flex; /* Use flexbox to align Zmanim and clock side by side */
+     gap: 40px;
     justify-content: space-between; /* Space between Zmanim and clock */
     align-items: center; /* Center items vertically */
 }
