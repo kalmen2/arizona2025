@@ -98,3 +98,9 @@ h2 {
     justify-content: space-between; /* Space between Zmanim and clock */
     align-items: center; /* Center items vertically */
 }
+.clocks-container {
+    display: flex;
+    gap: 10px; /* Space between clocks */
+    align-items: center;
+    justify-content: center;
+}
