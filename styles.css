@@ -1,0 +1,100 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(120deg, #FFDEE9, #B5FFFC);
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%S;
+}
+
+.weather-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    width: 30%;
+}
+.weather-container h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+#weather {
+    color: #555;
+    font-size: 1.2em; /* Adjust font size for weather text */
+}
+
+.countdown-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 70%;
+}
+h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#countdown {
+    text-align: center; /* Center countdown text */
+}
+
+#countdown div {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.5em;
+    color: #555;
+}
+
+#countdown span {
+    font-weight: bold;
+    color: #FF5722;
+    font-size: 2em;
+}
+
+.bottom-container {
+    display: flex; /* Align containers side by side */
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.zmanim-container, .time-container {
+    width: 40%; /* Set both containers to take up equal space */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-left: 10px;
+}
+
+.zman-item {
+    font-size: 1.0em;
+    margin: 5px 0;
+    color: #4A4A4A;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.zmanim-content {
+    display: flex; /* Use flexbox to align Zmanim and clock side by side */
+    justify-content: space-between; /* Space between Zmanim and clock */
+    align-items: center; /* Center items vertically */
+}

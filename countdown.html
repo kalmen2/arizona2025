@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Countdown with Weather and Zmanim</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-container">
+        <div class="countdown-container">
+            <div id="countdown">
+                <div><span id="days">0</span> Days</div>
+                <div><span id="hours">0</span> Hours</div>
+                <div><span id="minutes">0</span> Minutes</div>
+                <div><span id="seconds">0</span> Seconds</div>
+            </div>
+        </div>
+        <div class="weather-container">
+            <h3>Current Weather in Phoenix, AZ</h3>
+            <div id="weather"></div>
+        </div>
+    </div>
+    <div class="bottom-container"> <!-- New container for Zmanim and Clock -->
+        <div class="zmanim-container">
+            <h3>Zmanim for Today</h3>
+            <div id="zmanim">Loading zmanim...</div> <!-- Zmanim data will be displayed here -->
+        </div>
+        <div class="clock-container"> <!-- Separate container for the clock -->
+            <h3>Current Time</h3>
+            <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:150px;height:150px;"src="https://www.clocklink.com/html5embed.php?clock=041&timezone=USA_NewYork&color=blue&size=150&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=blue"></iframe>        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
