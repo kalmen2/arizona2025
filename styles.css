@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 70%;
-    hight: 30%;
+    height: 30%;
 }
 
 .weather-container {
