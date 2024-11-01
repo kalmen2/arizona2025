@@ -93,7 +93,7 @@ h3 {
 .clocks-container {
     display: flex; /* Aligns clocks side-by-side */
     justify-content: center; /* Centers the clocks horizontally */
-    gap: 20px; /* Adds space between clocks */
+    gap: 30px; /* Adds space between clocks */
     margin-top: 15px; /* Adds space above clocks */
 }
 
