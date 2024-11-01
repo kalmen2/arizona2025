@@ -90,7 +90,7 @@ h3 {
 }
 /* Increased font size for the weather title */
 .weather-container h2 {
-    font-size: 2.5em; /* Adjusted size for the weather title */
+    font-size: 3.5em; /* Adjusted size for the weather title */
     color: #333; /* Optional: keeps the color consistent with other titles */
 }
 
