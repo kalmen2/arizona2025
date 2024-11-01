@@ -88,6 +88,11 @@ h3 {
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
+/* Increased font size for the weather title */
+.weather-container h2 {
+    font-size: 2.5em; /* Adjusted size for the weather title */
+    color: #333; /* Optional: keeps the color consistent with other titles */
+}
 
 /* Clocks container styling */
 .clocks-container {
