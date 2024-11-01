@@ -8,29 +8,28 @@ body {
     margin: 0;
     background: linear-gradient(120deg, #FFDEE9, #B5FFFC);
 }
+
+/* Top Container */
 .top-container {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 30%;
+    width: 75%;
+    justify-content: flex-start;
+    padding: 20px;
 }
 
+/* Countdown Container */
 .countdown-container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px 40px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    width: 70%;
+    width: 100%;
 }
 
 h3 {
     font-size: 2em;
     color: #333;
-}
-
-#countdown {
-    text-align: center;
 }
 
 #countdown div {
@@ -46,43 +45,22 @@ h3 {
     font-size: 2em;
 }
 
-/* Bottom Container for Zmanim and Time Info */
+/* Bottom Container */
 .bottom-container {
     display: flex;
-    justify-content: space-between;
-    width: 80%;
+    width: 75%;
     margin-top: 20px;
+    justify-content: space-between;
 }
 
-.weather-container {
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 15px 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    margin-left: 10px;
-    width: 30%;
-}
-
-.weather-container h2 {
-    font-size: 1.5em;
-    color: #333;
-}
-
-#weather {
-    color: #555;
-    font-size: 1.2em;
-}
-
-
-.zmanim-container, .time-container {
-    width: 40%;
+/* Zmanim Container */
+.zmanim-container {
+    width: 45%;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    margin-left: 10px;
 }
 
 .zman-item {
@@ -95,17 +73,24 @@ h3 {
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.zmanim-content {
-    display: flex;
-    gap: 40px;
-    justify-content: space-between;
-    align-items: center;
-}
-/* Clock Container */
-.clock-container {
-    margin-top: 20px;
-    width: 90%;
-    max-width: 600px;
+/* Weather Container */
+.weather-container {
+    width: 50%;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Clocks Container */
+.clocks-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.clock-box {
+    text-align: center;
+}
