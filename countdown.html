@@ -12,12 +12,7 @@
             <h2>Current Weather in Phoenix</h2>
             <div id="weather">Loading weather...</div>
         </div>
-        <div class="time-container">
-            <h2>Current Time</h2>
-            <div id="currentTime">Loading time...</div>
-        </div>
-    </div>
-
+       
     <div class="countdown-container">
         <h3>Countdown to Trip</h3>
         <div id="countdown">
@@ -27,23 +22,18 @@
             <div><span id="seconds">0</span> Seconds</div>
         </div>
     </div>
-
-    <div class="clocks-container">
-        <div class="clock-box">
-            <h3>Analog Clock</h3>
-            <div id="clock">
-                <div id="hourHand" class="hand"></div>
-                <div id="minuteHand" class="hand"></div>
-                <div id="secondHand" class="hand"></div>
-            </div>
-        </div>
-    </div>
-
+   
     <div class="bottom-container">
         <div class="zmanim-container">
             <h2>Jewish Times (Zmanim)</h2>
             <div id="zmanim">Loading zmanim...</div>
         </div>
+    </div>
+         <div class="clock-container">
+        <h3>Current Time</h3>
+        <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:150px;height:150px;"
+                src="https://www.clocklink.com/html5embed.php?clock=041&timezone=USA_NewYork&color=blue&size=150&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=blue">
+        </iframe>
     </div>
 
     <script src="script.js"></script>
