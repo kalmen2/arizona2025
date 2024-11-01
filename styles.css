@@ -14,7 +14,6 @@ body {
     justify-content: space-between;
     width: 70%;
     height: 20%;
-
 }
 
 .weather-container {
@@ -24,19 +23,16 @@ body {
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     margin-left: 10px;
-    width: 30%
-    height: 30%;
-
+    width: 30%;
 }
 
-.weather-container h2 {
-    font-size: 1.5em;
-    color: #333;
-}
-
-#weather {
-    color: #555;
-    font-size: 1.2em;
+.time-container, .zmanim-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 40%;
 }
 
 .countdown-container {
@@ -46,15 +42,7 @@ body {
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     width: 70%;
-}
-
-h3 {
-    font-size: 2em;
-    color: #333;
-}
-
-#countdown {
-    text-align: center;
+    margin-top: 10px;
 }
 
 #countdown div {
@@ -69,48 +57,22 @@ h3 {
     color: #FF5722;
     font-size: 2em;
 }
+
+.zman-item {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #4A4A4A;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .clocks-container {
     display: flex;
-    gap: 20px; /* Space between clock boxes */
+    gap: 20px;
     justify-content: center;
-    margin-top: 15px; /* Add space above clocks */
+    margin-top: 15px;
 }
 
 .clock-box {
     text-align: center;
 }
-.bottom-container {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin-top: 20px;
-}
-
-.zmanim-container, .time-container {
-    width: 40%;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    margin-left: 10px;
-}
-
-.zman-item {
-    font-size: 1.0em;
-    margin: 5px 0;
-    color: #4A4A4A;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-}
-
-.zmanim-content {
-    display: flex;
-    gap: 40px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
