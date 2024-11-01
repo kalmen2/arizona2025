@@ -29,12 +29,6 @@ body {
     width: 100%; /* Expands to fill the parent container */
 }
 
-/* Countdown title styling */
-h3 {
-    font-size: 2em;
-    color: #333;
-}
-
 /* Countdown numbers container */
 #countdown div {
     display: inline-block; /* Aligns days, hours, etc., horizontally */
@@ -50,7 +44,7 @@ h3 {
     font-size: 2em;
 }
 
-/* Bottom container for Zmanim, Weather, and Clocks */
+/* Bottom container for Zmanim and Weather */
 .bottom-container {
     display: flex;
     width: 75%; /* Matches the top container width */
@@ -68,28 +62,25 @@ h3 {
     text-align: center;
 }
 
-/* Individual zman item styling */
-.zman-item {
-    font-size: 1.0em;
-    margin: 5px 0;
-    color: #4A4A4A;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-}
-
 /* Weather container styling */
 .weather-container {
     width: 45%; /* Takes the remaining 50% */
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 15px 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 250, 230, 0.9); /* Light peach background */
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* Weather details styling */
+.weather-details {
+    font-size: 1.5em; /* Increased font size */
+    color: #333; /* Dark color for better readability */
+    margin-bottom: 15px; /* Space below weather details */
+}
+
 /* Increased font size for the weather title */
-.weather-container h2 {
+.weather-container h4 {
     font-size: 1.5em; /* Adjusted size for the weather title */
     color: #333; /* Optional: keeps the color consistent with other titles */
 }
@@ -105,4 +96,15 @@ h3 {
 /* Individual clock styling */
 .clock-box {
     text-align: center; /* Centers text and iframe inside */
+}
+
+/* Individual zman item styling */
+.zman-item {
+    font-size: 1.0em;
+    margin: 5px 0;
+    color: #4A4A4A;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 }
