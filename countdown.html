@@ -28,12 +28,16 @@
             <div id="zmanim">Loading zmanim...</div>
         </div>
     </div>
-         <div class="clock-container">
-        <h3>Current Time</h3>
-        <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:150px;height:150px;"
-                src="https://www.clocklink.com/html5embed.php?clock=041&timezone=USA_NewYork&color=blue&size=150&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=blue">
-        </iframe>
-    </div>
+          <div class="clocks-container"> <!-- Container for clocks -->
+                <div class="clock-box">
+                    <h2>New York</h2>
+                    <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:150px;height:150px;" src="https://www.clocklink.com/html5embed.php?clock=041&timezone=USA_NewYork&color=blue&size=150&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=blue"></iframe>
+                </div>
+                <div class="clock-box">
+                    <h2>Arizona</h2>
+                    <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:150px;height:150px;" src="https://www.clocklink.com/html5embed.php?clock=041&timezone=USA_Phoenix&color=blue&size=150&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=blue"></iframe>
+                </div>
+            </div>
 
     <script src="script.js"></script>
 </body>
