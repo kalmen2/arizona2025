@@ -16,14 +16,14 @@ body {
     display: flex;
     width: 75%; /* Makes it take 75% of the screen width */
     justify-content: flex-start; /* Align to the left */
-    padding: 20px; /* Adds spacing around */
+    padding: 7px; /* Adds spacing around */
 }
 
 /* Countdown timer box styling */
 .countdown-container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     width: 100%; /* Expands to fill the parent container */
@@ -81,7 +81,7 @@ h3 {
 
 /* Weather container styling */
 .weather-container {
-    width: 50%; /* Takes the remaining 50% */
+    width: 45%; /* Takes the remaining 50% */
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 15px 20px;
