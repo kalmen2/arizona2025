@@ -46,13 +46,6 @@ h3 {
     font-size: 2em;
 }
 
-/* Clocks Container */
-.clocks-container {
-    display: flex;
-    gap: 20px; /* Space between clock boxes */
-    justify-content: center;
-    margin-top: 15px; /* Space above clocks */
-}
 /* Bottom Container for Zmanim and Time Info */
 .bottom-container {
     display: flex;
@@ -60,17 +53,6 @@ h3 {
     width: 80%;
     margin-top: 20px;
 }
-
-.clock-box {
-    width: 150px; /* Define width for each clock box */
-    height: 150px; /* Define height for each clock box */
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    text-align: center;
-}
-
 
 .weather-container {
     text-align: center;
@@ -119,3 +101,11 @@ h3 {
     justify-content: space-between;
     align-items: center;
 }
+/* Clock Container */
+.clock-container {
+    margin-top: 20px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
