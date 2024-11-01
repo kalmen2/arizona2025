@@ -55,7 +55,7 @@ h3 {
     display: flex;
     width: 75%; /* Matches the top container width */
     margin-top: 20px; /* Adds space above */
-    justify-content: space-between; /* Spaces zmanim and weather containers evenly */
+    justify-content: space-between; /* Spaces zmanim and weather/clocks containers evenly */
 }
 
 /* Zmanim container styling */
@@ -68,20 +68,13 @@ h3 {
     text-align: center;
 }
 
-/* Individual zman item styling */
-.zman-item {
-    font-size: 1.0em;
-    margin: 5px 0;
-    color: #4A4A4A;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+/* Weather and Clocks container styling */
+.weather-clocks-container {
+    width: 45%; /* Takes the remaining 50% */
 }
 
 /* Weather container styling */
 .weather-container {
-    width: 45%; /* Takes the remaining 50% */
     text-align: center;
     padding: 15px 20px;
     border-radius: 10px;
