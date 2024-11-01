@@ -65,7 +65,16 @@ h3 {
     color: #FF5722;
     font-size: 2em;
 }
+.clocks-container {
+    display: flex;
+    gap: 20px; /* Space between clock boxes */
+    justify-content: center;
+    margin-top: 15px; /* Add space above clocks */
+}
 
+.clock-box {
+    text-align: center;
+}
 .bottom-container {
     display: flex;
     justify-content: space-between;
@@ -100,13 +109,4 @@ h3 {
     align-items: center;
 }
 
-.clocks-container {
-    display: flex;
-    gap: 20px; /* Space between clock boxes */
-    justify-content: center;
-    margin-top: 15px; /* Add space above clocks */
-}
 
-.clock-box {
-    text-align: center;
-}
