@@ -3,41 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trip Countdown with Weather and Zmanim</title>
+    <title>Countdown Timer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="top-container">
-        <div class="countdown-container">
-            <div id="countdown">
-                <div><span id="days">0</span> Days</div>
-                <div><span id="hours">0</span> Hours</div>
-                <div><span id="minutes">0</span> Minutes</div>
-                <div><span id="seconds">0</span> Seconds</div>
-            </div>
+        <div class="weather-container">
+            <h2>Current Weather in Phoenix</h2>
+            <div id="weather">Loading weather...</div>
         </div>
- <div class="weather-container">
-            <h3>Current Weather in Phoenix, AZ</h3>
-            <div id="weather">Weather details here...</div>
-            <div class="clocks-container"> <!-- New container for clocks inside weather -->
-                <div class="clock-box">
-                    <h2>New York</h2>
-                    <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:70px;height:70px;" src="https://www.clocklink.com/html5embed.php?clock=041&timezone=USA_NewYork&color=blue&size=150&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=blue"></iframe>
-                </div>
-                <div class="clock-box">
-                    <h2>Arizona</h2>
-                    <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:70px;height:70;" src="https://www.clocklink.com/html5embed.php?clock=041&timezone=USA_Phoenix&color=blue&size=150&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=blue"></iframe>
-                </div>
+        <div class="time-container">
+            <h2>Current Time</h2>
+            <div id="currentTime">Loading time...</div>
+        </div>
+    </div>
+
+    <div class="countdown-container">
+        <h3>Countdown to Trip</h3>
+        <div id="countdown">
+            <div><span id="days">0</span> Days</div>
+            <div><span id="hours">0</span> Hours</div>
+            <div><span id="minutes">0</span> Minutes</div>
+            <div><span id="seconds">0</span> Seconds</div>
+        </div>
+    </div>
+
+    <div class="clocks-container">
+        <div class="clock-box">
+            <h3>Analog Clock</h3>
+            <div id="clock">
+                <div id="hourHand" class="hand"></div>
+                <div id="minuteHand" class="hand"></div>
+                <div id="secondHand" class="hand"></div>
             </div>
         </div>
     </div>
+
     <div class="bottom-container">
         <div class="zmanim-container">
-            <h3>Zmanim for Today</h3>
+            <h2>Jewish Times (Zmanim)</h2>
             <div id="zmanim">Loading zmanim...</div>
         </div>
-       
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
