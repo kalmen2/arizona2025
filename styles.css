@@ -14,7 +14,7 @@ body {
 /* Top container holding the countdown timer */
 .top-container {
     display: flex;
-    width: 75%; /* Makes it take 75% of the screen width */
+    width:80%; /* Makes it take 75% of the screen width */
     justify-content: flex-start; /* Align to the left */
     padding: 7px; /* Adds spacing around */
 }
