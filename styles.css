@@ -1,3 +1,4 @@
+/* Basic body styling with centered flex layout */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -6,56 +7,60 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
+    /* Background gradient */
     background: linear-gradient(120deg, #FFDEE9, #B5FFFC);
 }
 
-/* Top Container */
+/* Top container holding the countdown timer */
 .top-container {
     display: flex;
-    width: 75%;
-    justify-content: flex-start;
-    padding: 20px;
+    width: 75%; /* Makes it take 75% of the screen width */
+    justify-content: flex-start; /* Align to the left */
+    padding: 20px; /* Adds spacing around */
 }
 
-/* Countdown Container */
+/* Countdown timer box styling */
 .countdown-container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px 40px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    width: 100%;
+    width: 100%; /* Expands to fill the parent container */
 }
 
+/* Countdown title styling */
 h3 {
     font-size: 2em;
     color: #333;
 }
 
+/* Countdown numbers container */
 #countdown div {
-    display: inline-block;
+    display: inline-block; /* Aligns days, hours, etc., horizontally */
     margin: 10px;
     font-size: 1.5em;
     color: #555;
 }
 
+/* Countdown numbers styling */
 #countdown span {
     font-weight: bold;
     color: #FF5722;
     font-size: 2em;
 }
 
-/* Bottom Container */
+/* Bottom container for Zmanim, Weather, and Clocks */
 .bottom-container {
     display: flex;
-    width: 75%;
-    margin-top: 20px;
-    justify-content: space-between;
+    width: 75%; /* Matches the top container width */
+    margin-top: 20px; /* Adds space above */
+    justify-content: space-between; /* Spaces zmanim and weather containers evenly */
 }
 
-/* Zmanim Container */
+/* Zmanim container styling */
 .zmanim-container {
-    width: 45%;
+    width: 45%; /* Takes 45% of the parent width */
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 15px;
@@ -63,6 +68,7 @@ h3 {
     text-align: center;
 }
 
+/* Individual zman item styling */
 .zman-item {
     font-size: 1.0em;
     margin: 5px 0;
@@ -73,9 +79,9 @@ h3 {
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Weather Container */
+/* Weather container styling */
 .weather-container {
-    width: 50%;
+    width: 50%; /* Takes the remaining 50% */
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 15px 20px;
@@ -83,14 +89,15 @@ h3 {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Clocks Container */
+/* Clocks container styling */
 .clocks-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 15px;
+    display: flex; /* Aligns clocks side-by-side */
+    justify-content: center; /* Centers the clocks horizontally */
+    gap: 20px; /* Adds space between clocks */
+    margin-top: 15px; /* Adds space above clocks */
 }
 
+/* Individual clock styling */
 .clock-box {
-    text-align: center;
+    text-align: center; /* Centers text and iframe inside */
 }
