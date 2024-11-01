@@ -80,6 +80,7 @@ h3 {
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     background-color: rgba(135, 206, 235, 0.9); /* Light blue background for weather */
+    margin-bottom: 15px; /* Space between weather and clocks */
 }
 
 /* Increased font size for the weather title */
@@ -100,7 +101,6 @@ h3 {
     display: flex; /* Aligns clocks side-by-side */
     justify-content: center; /* Centers the clocks horizontally */
     gap: 30px; /* Adds space between clocks */
-    margin-top: 15px; /* Adds space above clocks */
 }
 
 /* Individual clock styling */
