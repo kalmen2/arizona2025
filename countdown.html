@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countdown Timer</title>
+    <!-- Link to external CSS file for styling -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Top container holding the countdown -->
     <div class="top-container">
+        <!-- Countdown container for the trip countdown timer -->
         <div class="countdown-container">
             <h3>Countdown to Trip</h3>
+            <!-- Countdown display, each span will show days, hours, minutes, and seconds left -->
             <div id="countdown">
                 <div><span id="days">0</span> Days</div>
                 <div><span id="hours">0</span> Hours</div>
@@ -19,28 +24,43 @@
         </div>
     </div>
 
+    <!-- Bottom container holding Zmanim, Weather, and Clocks -->
     <div class="bottom-container">
+        <!-- Zmanim (Jewish times) container -->
         <div class="zmanim-container">
             <h2>Jewish Times (Zmanim)</h2>
+            <!-- Zmanim display placeholder -->
             <div id="zmanim">Loading zmanim...</div>
         </div>
 
+        <!-- Weather and clocks container -->
         <div class="weather-container">
             <h2>Current Weather in Phoenix</h2>
+            <!-- Weather display placeholder -->
             <div id="weather">Loading weather...</div>
+            <!-- Container for clocks (New York and Arizona) -->
             <div class="clocks-container">
+                <!-- Clock for New York -->
                 <div class="clock-box">
                     <h2>New York</h2>
-                    <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:150px;height:150px;" src="https://www.clocklink.com/html5embed.php?clock=041&timezone=USA_NewYork&color=blue&size=150&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=blue"></iframe>
+                    <iframe scrolling="no" frameborder="no" clocktype="html5"
+                            style="overflow:hidden;border:0;margin:0;padding:0;width:150px;height:150px;"
+                            src="https://www.clocklink.com/html5embed.php?clock=041&timezone=USA_NewYork&color=blue&size=150&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=blue">
+                    </iframe>
                 </div>
+                <!-- Clock for Arizona -->
                 <div class="clock-box">
                     <h2>Arizona</h2>
-                    <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:150px;height:150px;" src="https://www.clocklink.com/html5embed.php?clock=041&timezone=USA_Phoenix&color=blue&size=150&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=blue"></iframe>
+                    <iframe scrolling="no" frameborder="no" clocktype="html5"
+                            style="overflow:hidden;border:0;margin:0;padding:0;width:150px;height:150px;"
+                            src="https://www.clocklink.com/html5embed.php?clock=041&timezone=USA_Phoenix&color=blue&size=150&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=blue">
+                    </iframe>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Link to external JavaScript file for functionality -->
     <script src="script.js"></script>
 </body>
 </html>
